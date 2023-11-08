@@ -3,6 +3,10 @@
 
 	a {
 		@apply mb-8 block;
+
+		&.active svg {
+			@apply text-TW_white_color;
+		}
 	}
 
 	svg {
