@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        TW_white: '#efeff3',
-        border: 'rgba(255, 255, 255, 0.12)',
+        TW_white_color: '#efeff3',
+        TW_border_color: 'rgba(255, 255, 255, 0.12)',
+      },
+      padding: {
+        TW_padding_layout: '1.25rem'
       }
     },
   },
