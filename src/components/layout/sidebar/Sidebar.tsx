@@ -6,22 +6,22 @@ import Link from 'next/link';
 export const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
-      <Image src="/logo.svg" alt="social Logo" width={50} height={50} />
+      <Image src="/logo.svg" alt="social Logo" width={45} height={45} priority />
       <div>
         <Link href="/friends">
-          <Users2 />
+          <Users2 size={27}/>
         </Link>
         <Link href="/call">
-          <Phone />
+          <Phone size={27}/>
         </Link>
         <Link href="/chats">
-          <MessagesSquare />
+          <MessagesSquare size={27}/>
         </Link>
         <Link href="/settings">
-          <Settings />
+          <Settings size={27} />
         </Link>
       </div>
-      <Sun />
+      <Sun size={27}/>
     </aside>
   );
 };
